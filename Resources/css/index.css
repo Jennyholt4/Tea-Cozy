@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  font-family: helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+a {
+  color: seashell;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Header Section */
+
+header {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  width: 100%;
+  height: 69px;
+  z-index: 1;
+  border-bottom: solid seashell 1px;
+  background-color: black;
+}
+
+.logo img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+/* Content Section */
+/* Mission Section */
+
+.content {
+  padding-top: 70px;
+}
+
+#mission {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  align-items: center;
+  margin: auto;
+}
+
+.mission {
+  background-color: black;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
+.mission h2,
+.mission h4{
+  margin: 12px auto;
+}
+
+/* Store Section */
+
+.store {
+  width: 1000px;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.storeitems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.itemrow {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+  margin: 10px 20px;
+}
+
+.item h4 {
+  margin: 0px auto 10px auto;
+}
+
+/* Locations Section */
+
+#locations {
+  margin: 70px auto auto auto;
+  text-align: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  padding-top: 50px;
+}
+
+#locations .locations {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.location {
+  flex-direction: column;
+  display: flex;
+  opacity: 1;
+  background-color: black;
+  margin: 0;
+  height: 300px;
+  width: 300px;
+  justify-content: center;
+  margin: auto 20px auto 20px;
+}
+
+.location h4, .location h3 {
+  margin: 0;
+  padding: 10px;
+}
+
+/* Contact Section*/
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h5 {
+  margin: 0;
+}
+
+.site {
+  margin-bottom: 20px;
+}
+
+/* Footer Section */
+
+footer {
+  text-align: left;
+  margin: auto auto 20px 20px;
+}
